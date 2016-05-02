@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
-gulp.task('default', ['concatScripts'], function() {
+gulp.task('default', ['concatScripts', 'minifyScripts'], function() {
   console.log("Default task complete!");
 });
 
